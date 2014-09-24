@@ -1,7 +1,6 @@
-module SpreeFancy
+module SpreeShowcase
   module Generators
     class InstallGenerator < Rails::Generators::Base
-
       def add_javascripts
         append_file 'vendor/assets/javascripts/spree/frontend/all.js', "//= require spree/slider\n"
       end
