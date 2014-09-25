@@ -15,8 +15,8 @@ $(function(){
   // Home sliders
   if($('#main-slider').length > 0) {
 
-    var cached_carousel_1 = $('#featured-products .carousel').html();
-    var cached_carousel_2 = $('#latest-products .carousel').html();
+    var cached_carousel_1_1 = $('#sale-products .carousel').html();
+    var cached_carousel_2_1 = $('#new-products .carousel').html();
 
     $('#main-slider > ul').bxSlider({
       adaptiveHeight: true,
